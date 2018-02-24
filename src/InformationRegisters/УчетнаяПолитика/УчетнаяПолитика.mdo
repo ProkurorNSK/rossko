@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db3c841b-5bd8-4415-9d48-d950b6bcf9eb">
+  <producedTypes>
+    <selectionType typeId="8a975bee-d714-4686-af9c-75b06a3eead3" valueTypeId="3ff3b8e9-4d98-4d43-a432-0aaf1e32547a"/>
+    <listType typeId="27fa9521-06bd-4fc6-8c02-4943461cf172" valueTypeId="f3ada314-3811-4238-ae30-18c69ebdeea9"/>
+    <managerType typeId="390200e7-6ebf-4ac0-bf35-45a048df1b17" valueTypeId="5ca6b73e-d8fc-46e0-ba7c-5fbd84254737"/>
+    <recordSetType typeId="bc67ef02-0b05-48bc-b4bc-2fd03657954b" valueTypeId="cae7f023-b71a-469c-9e45-59e236d87b79"/>
+    <recordKeyType typeId="5846f640-37a4-41a0-a827-b58f8b26984a" valueTypeId="00162e42-b3b8-47b1-b402-4645c1ebe4ab"/>
+    <recordType typeId="7db181d0-2bab-481a-852d-970fd4bd6437" valueTypeId="d85e95f6-7174-4ba4-b706-c9f26da70630"/>
+    <recordManagerType typeId="78af54f0-e6e4-4d51-be79-47c9e3864810" valueTypeId="d3310532-f5c8-4e40-a6ca-8106ad4a436a"/>
+  </producedTypes>
+  <name>УчетнаяПолитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b2b57de6-1606-48e0-a9d5-f10bdabd3b66">
+    <name>СпособСписанияСебестоимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ списания себестоимости</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.СпособСписанияСебестоимости</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

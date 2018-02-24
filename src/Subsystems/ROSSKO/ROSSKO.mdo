@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3319baf0-f208-4589-a31d-bab892f850b0">
+  <name>ROSSKO</name>
+  <synonym>
+    <key>ru</key>
+    <value>ROSSKO</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ROSSKO</picture>
+  </picture>
+  <content>InformationRegister.УчетнаяПолитика</content>
+  <content>Enum.СпособСписанияСебестоимости</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Enum.ВидНоменклатуры</content>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>AccumulationRegister.ПартииНоменклатуры</content>
+  <content>Document.РасходнаяНакладная</content>
+  <content>AccumulationRegister.ОстаткиНоменклатуры</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>Report.Продажи</content>
+  <content>Report.Остатки</content>
+  <content>ChartOfCharacteristicTypes.Свойства</content>
+  <content>Catalog.ЗначенияСвойств</content>
+  <content>InformationRegister.ЗначенияСвойств</content>
+</mdclass:Subsystem>
